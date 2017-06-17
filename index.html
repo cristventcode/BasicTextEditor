@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title> Title </title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      <!-- Custom CSS styling -->
+      <link rel="stylesheet" href="/css/styles.css">
+   </head>
+   <body>
+      <div id="content-wrapper">
+         <header>
+            <nav class="navbar navbar-default">
+               <div class="container-fluid">
+                  <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     </button>
+                     <a class="navbar-brand" href="#">jQuery</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                     <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </header>
+         <main class="container col-xs-12">
+            <div class="row">
+               <div class="col-xs-12">
+                  <div id="font-selector" class="dropdown edit-btn">
+                     <button id="color-button" class="btn btn-default dropdown-toggle" type="button" id="color-select-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                     <span id="active-color" class="color" style="background-color: black">red</span>
+                     <span class="caret"></span>
+                     </button>
+                     <ul id="color-dropdown" class="dropdown-menu" aria-labelledby="color-select-menu">
+                        <li class="list-group-item color" style="background-color: red">red</li>
+                        <li class="list-group-item color" style="background-color: grey">grey</li>
+                        <li class="list-group-item color" style="background-color: orange">orange</li>
+                        <li class="list-group-item color" style="background-color: steelblue">steelblue</li>
+                        <li class="list-group-item color" style="background-color: green">green</li>
+                        <li class="list-group-item color" style="background-color: lightcoral">lightcoral</li>
+                        <li class="list-group-item color" style="background-color: violet">violet</li>
+                        <li class="list-group-item color" style="background-color: black">black</li>
+                     </ul>
+                  </div>
+                  <div id="font-selector" class="dropdown edit-btn">
+                     <button class="btn btn-default dropdown-toggle" type="button" id="font-select-menu" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="true">
+                     <span id="font-button-text">Times New Roman</span>
+                     <span class="caret"></span>
+                     </button>
+                     <ul id="font-dropdown" class="dropdown-menu" aria-labelledby="font-select-menu">
+                        <li class="list-group-item font">Georgia</li>
+                        <li class="list-group-item font">Palatino Linotype</li>
+                        <li class="list-group-item font">Times New Roman</li>
+                        <li class="list-group-item font">Arial</li>
+                        <li class="list-group-item font">Impact</li>
+                        <li class="list-group-item font">Courier New</li>
+                        <li class="list-group-item font">Tahoma</li>
+                     </ul>
+                  </div>
+                  <div id="size-selector" class="dropdown edit-btn">
+                     <button id="size-button" class="btn btn-default dropdown-toggle" type="button" id="size-select-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                     <span id="size-button-text">18 px</span>
+                     <span class="caret"></span>
+                     </button>
+                     <ul id="size-dropdown" class="dropdown-menu" aria-labelledby="size-select-menu">
+                        <li class="list-group-item size">18</li>
+                        <li class="list-group-item size">24</li>
+                        <li class="list-group-item size">28</li>
+                        <li class="list-group-item size">32</li>
+                        <li class="list-group-item size">38</li>
+                        <li class="list-group-item size">42</li>
+                        <li class="list-group-item size">68</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xs-12">
+                  <div class="well">
+                     <textarea class="form-control" name="" id="text-area"></textarea>
+                  </div>
+               </div>
+            </div>
+         </main>
+      </div>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+         crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+         crossorigin="anonymous"></script>
+      <script src="/js/action.js"></script>
+   </body>
+</html>
